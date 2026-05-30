@@ -1,63 +1,345 @@
-# ObsidianUltimate
-My Obsidian Vault Repository For Productivity (Currently working on implementing Zettelkasten and comfortable notes taking)
+# 🧠 ObsidianUltimate
 
+My personal Obsidian Vault repository focused on productivity, comfortable note-taking, and long-term knowledge management.
 
-# Installation:
+Currently evolving with:
 
-1)Install Obsidian: https://obsidian.md/download
+* Zettelkasten implementation
+* Productivity systems
+* Better note organization
+* Comfortable workflows
+* Quality-of-life plugins and themes
 
-2)Install my template. Place my template somewhere in a *~productive* folder, for Example E:\Productivity\ObsidianVault  - it can store multiple Profiles there. Put my project there.
+---
 
-3)Open Obsidian and you'll see this window
+## ✨ Features
 
-<img width="2054" height="1368" alt="image" src="https://github.com/user-attachments/assets/9c983fa1-3e9a-461b-912b-681eeab8faec" />
+* Ready-to-use productivity vault
+* Customized plugins
+* Improved visual themes
+* Structured organization
+* Long-term knowledge storage
+* Built around practical daily use
 
+---
 
-or if you have projects already:
+# ⚙️ Installation
 
+### 1. Install Obsidian
 
-<img width="674" height="454" alt="image" src="https://github.com/user-attachments/assets/2d05e100-80f1-4e5e-b7c0-c95dda8cf391" />
+Download Obsidian:
 
-and Use Open Folder as Vault, open my project folder and Press select folder, and it will initialize the directory as your project
+https://obsidian.md/download
 
-Important: Trust author or enable plugins, or you may do it later. Plugins are used for Obsidian experience customization.
+---
 
-<img width="1474" height="991" alt="image" src="https://github.com/user-attachments/assets/a6a8243e-b8e0-49b3-9aa9-5cd30c9c6e1b" />
+### 2. Download and place the vault
 
+Place the template somewhere inside a productivity folder.
 
-For changing UI scaling, open Settings -> Appearance -> Scroll and find Zoom Level
+Example:
 
-<img width="2202" height="1363" alt="image" src="https://github.com/user-attachments/assets/6e9200cc-ad6f-4d98-a089-8a5617cec812" />
+```text
+E:\Productivity\ObsidianVault
+```
 
+You can also keep multiple vaults inside the same location.
 
+Example:
 
-# LONG TERM OBSIDIAN TROUBLESHOOTING / elements become buggy and glitchy:
-1)Just use ctrl+c and ctrl+v - dublicate project when it begins to lag, and open it to reinit, reindex all files and configs.
+```text
+E:\Productivity\
+ ├─ ObsidianUltimate
+ ├─ JapaneseNotes
+ └─ UniversityNotes
+```
 
-2)Also plugins may make your project sluggins
+---
 
-3)if you disable plugins, but they enable after app restart:
+### 3. Open the vault
 
- • Delete troublesome plugin and reinstall
+Launch Obsidian.
 
-~ I will fix project / add more tips as users meet any problems during usage
+If this is your first vault, you'll see:
 
-# Backups:
-1)please do notes backups of project once a month(use win rar and the best compression)
+![First launch](https://github.com/user-attachments/assets/9c983fa1-3e9a-461b-912b-681eeab8faec)
 
-2)Have at least 3 digital copies of notes in different places
+If you already have existing vaults:
 
-3)if you want to bundle your project in separate folder and then archive without images, gifs and only package MD, Canvas and other text files to save space, use my bundler tool https://github.com/Oleksandr-Ukrainian/LexiCodeBundler
+![Existing projects](https://github.com/user-attachments/assets/2d05e100-80f1-4e5e-b7c0-c95dda8cf391)
 
+Select:
 
-you may also exclude big folders like "plugins" and "themes" there if you bundle whole project with configs and settings but want to save space
+```text
+Open folder as vault
+```
 
-# Renaming:
+Choose the project folder and press:
 
-1)Feel free to rename the main project name ObsidianUltimate to your name.
-2)Don't rename Diary folder, breaks some paths
-3)Don't rename Utilities folder, breaks some paths
+```text
+Select Folder
+```
 
+Obsidian will initialize the directory as a vault.
 
-# Themes:
-Removed Kakano as deemed a bad one, Replaced with Origami(downsides are Canvas paper animations may be annoying), also enjoy Royal Valvet(downsides are that emojis become yellow at Tasks Panel)
+---
+
+## 🔌 Important plugin notice
+
+When opening the vault, Obsidian may ask whether to trust the vault author.
+
+Select:
+
+```text
+Trust author
+```
+
+or enable plugins later manually.
+
+Plugins are heavily used for customization and quality-of-life improvements.
+
+![Plugin trust](https://github.com/user-attachments/assets/a6a8243e-b8e0-49b3-9aa9-5cd30c9c6e1b)
+
+---
+
+## 🔍 UI scaling
+
+If interface elements appear too small or too large:
+
+Open:
+
+```text
+Settings
+→ Appearance
+→ Zoom Level
+```
+
+Adjust until comfortable.
+
+![Zoom settings](https://github.com/user-attachments/assets/6e9200cc-ad6f-4d98-a089-8a5617cec812)
+
+---
+
+# 🔧 Long-term troubleshooting
+
+Sometimes large Obsidian vaults become sluggish, buggy, or weird things start happening.
+
+### 1. Reinitialize the vault
+
+Simply duplicate the project:
+
+```text
+Ctrl + C
+Ctrl + V
+```
+
+Open the duplicated vault.
+
+This forces Obsidian to rebuild:
+
+* indexes
+* caches
+* configurations
+
+This surprisingly fixes many strange issues.
+
+---
+
+### 2. Plugins may slow things down
+
+Too many plugins can gradually affect responsiveness.
+
+Try:
+
+* disabling recently added plugins
+* checking heavy plugins
+* reducing unnecessary visual effects
+
+---
+
+### 3. Plugins re-enable after restart
+
+If disabling a plugin doesn't persist:
+
+• Delete the problematic plugin completely
+
+• Reinstall it
+
+---
+
+I will continue improving the project and add more solutions as users encounter issues.
+
+---
+
+# 💾 Backups
+
+Your notes are usually worth more than the software itself.
+
+### Recommended:
+
+1. Make vault backups at least once per month
+
+Using:
+
+```text
+WinRAR
+```
+
+Use highest compression settings.
+
+---
+
+2. Keep at least:
+
+```text
+3 digital copies
+```
+
+in different locations.
+
+Examples:
+
+* Main PC
+* External drive
+* Cloud storage
+
+---
+
+### Save space backup method
+
+If you only want text content:
+
+Exclude:
+
+* images
+* gifs
+* videos
+
+Archive only:
+
+```text
+.md
+.canvas
+and text files
+```
+
+For this use:
+
+https://github.com/Oleksandr-Ukrainian/LexiCodeBundler
+
+You can also exclude large folders like:
+
+```text
+plugins
+themes
+```
+
+if you want smaller archives.
+
+---
+
+# ✏️ Renaming
+
+### Safe:
+
+Feel free to rename:
+
+```text
+ObsidianUltimate
+```
+
+to your own project name.
+
+Example:
+
+```text
+OlexVault
+```
+
+---
+
+### Do NOT rename:
+
+```text
+Diary
+```
+
+Reason:
+
+Some paths depend on it.
+
+Do NOT rename:
+
+```text
+Utilities
+```
+
+Reason:
+
+Some automation paths depend on it.
+
+---
+
+# 🎨 Themes
+
+Current recommendations:
+
+### Origami
+
+Pros:
+
+* clean visuals
+* comfortable layout
+
+Downsides:
+
+* Canvas paper animations may become annoying
+
+---
+
+### Royal Velvet
+
+Pros:
+
+* pleasant aesthetics
+
+Downsides:
+
+* emojis in task panels become yellow
+
+---
+
+Removed:
+
+### Kakano
+
+Reason:
+
+Didn't age well and created usability issues.
+
+---
+
+# 🧠 Philosophy
+
+Notes should feel comfortable.
+
+Not like filing taxes.
+
+The goal isn't to collect thousands of random notes and become a digital hoarder.
+
+The goal is to build a second brain that is enjoyable to use every day.
+
+---
+
+# 💡 Summary
+
+* Productivity-focused vault
+* Zettelkasten ready
+* Customized plugins
+* Themes included
+* Long-term organization
+* Built for daily use
+
+---
+
+> Your brain has limited RAM. Storage expansion pack included.
